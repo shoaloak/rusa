@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="1) Main /w JPQL target" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="17" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.axelkoolhaas.rusa.stat.Main" />
+    <module name="rusa" />
+    <option name="PROGRAM_PARAMETERS" value="-f jpql_target.jar -t com.axelkoolhaas.sqlirestapi.repository.ArticleRepositoryImpl:unsafeFindById" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.axelkoolhaas.rusa.stat.callgraph.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

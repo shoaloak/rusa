@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="2) Premain /w JPQL target" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/jpql_target.jar" />
+    <option name="VM_PARAMETERS" value="-javaagent:target/rusa-jar-with-dependencies.jar=distance_tree.json" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="17" />
+    <method v="2">
+      <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+    </method>
+  </configuration>
+</component>

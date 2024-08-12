@@ -1,0 +1,26 @@
+# personal
+target.jar
+jpql_target.jar
+sql_target.jar
+callgraph.png
+
+# output
+*.gv
+/*.json
+
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/

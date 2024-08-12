@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!-- pattern: https://logging.apache.org/log4j/2.x/manual/layouts.html#Patterns -->
+<!--            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>-->
+            <!-- %p log level (INFO, DEBUG, WARN, ERROR, FATAL) -->
+            <!-- %c{1} class name -->
+            <!-- %m message -->
+            <!-- %n new line -->
+            <PatternLayout pattern="RUSA %-5p %c{1} - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <!-- log level: trace < debug < info < warn < error < fatal -->
+        <Root level="debug">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
